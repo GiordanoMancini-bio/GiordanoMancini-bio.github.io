@@ -23,8 +23,8 @@ locale                   : "en-US"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
 title                    : "Giordano Mancini's personal website"
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Your Name"
+subtitle                 : "Last update on 2025/05/27" 
+name                     : ""
 description              : "An amazing website."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -117,9 +117,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Giordano Mancini"
+  name             : "Giordano Mancini, PhD"
   avatar           : "/assets/images/pic1.png"
-  bio              : "I am an **amazing** person."
+  bio              : "Postdoctoral Researcher in conservation biology."
   location         : 
   email            : "giordano.mancini@uniroma1.it"
   links:
