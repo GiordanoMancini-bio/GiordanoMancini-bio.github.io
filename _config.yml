@@ -119,9 +119,6 @@ author:
   location         : 
   email            : "giordano.mancini@uniroma1.it"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "giordano.mancini@uniroma1.it"
     - label: "Bluesky"
       icon: "fab fa-fw fa-bluesky"
       url: "https://bsky.app/profile/giordanomancini.bsky.social"
