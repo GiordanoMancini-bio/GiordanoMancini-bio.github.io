@@ -1,1 +1,5 @@
-
+.author__avatar {
+  border-radius: 0% !important;
+  width: 250px !important;
+  height: 250px !important;
+}
