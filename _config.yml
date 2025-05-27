@@ -23,7 +23,7 @@ locale                   : "en-US"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
 title                    : "Giordano Mancini's personal website"
 title_separator          : "-"
-subtitle                 : "Last update on 2025/05/27" 
+subtitle                 : "Last update on 27/05/2025" 
 name                     : ""
 description              : "An amazing website."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
