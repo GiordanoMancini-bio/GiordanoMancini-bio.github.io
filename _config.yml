@@ -121,7 +121,7 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
+      url: "giordano.mancini@uniroma1.it"
     - label: "Bluesky"
       icon: "fab fa-fw fa-bluesky"
       url: "https://bsky.app/profile/giordanomancini.bsky.social"
@@ -130,7 +130,7 @@ author:
       url: "https://www.researchgate.net/profile/Giordano-Mancini"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      # url: "https://github.com/"
+      url: "https://linkedin.com/"
       
 # Site Footer
 footer:
@@ -143,7 +143,7 @@ footer:
       url: "https://www.researchgate.net/profile/Giordano-Mancini"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      # url: "https://github.com/"
+      url: "https://github.com/"
 
 
 # Reading Files
