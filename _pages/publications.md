@@ -14,11 +14,3 @@ author_profile: true
 3. **Mancini, G.**, Santini, L., Cazalis, V., Akçakaya, H. R., Lucas, P. M., Brooks, T. M., Foden, W. & Di Marco, M. (2024). A standard approach for including climate change responses in IUCN Red List assessments. *Conservation Biology*, 38(3), e14227. [https://doi.org/10.1111/cobi.14227](https://doi.org/10.1111/cobi.14227)
 2. Cazalis, V., Santini, L., Lucas,P. M., González-Suárez, M., Hoffmann, M.,Benítez-López, A., Pacifici, M., Schipper, A. M., Böhm,M., Zizka, A., Clausnitzer, V., Meyer, C., Jung, M.,Butchart, S. H. M., Cardoso, P., **Mancini, G.**, Akçakaya,H. R., Young, B. E., Patoine, G., & Marco, M. D. (2023). Prioritizing the reassessment of data-deficient species on the IUCN Red List. *Conservation Biology*, e14139. [https://doi.org/10.1111/cobi.14139](https://doi.org/10.1111/cobi.14139)
 1. **Mancini, G.**, Benítez-López, A., Di Marco, M., Pacifici, M., Rondinini, C., & Santini, L. (2023). Synergistic effects of habitat fragmentation and hunting on the extinction risk of neotropical primates. *Biodiversity and Conservation* (32), 2655-2669. [https://doi.org/10.1007/s10531-023-02623-w](https://doi.org/10.1007/s10531-023-02623-w)
-
-<ol reversed>
-<li>Quinto elemento (primo nella lista)</li>
-<li>Quarto elemento</li>
-<li>Terzo elemento</li>
-<li>Secondo elemento</li>
-<li>Primo elemento (ultimo nella lista)</li>
-</ol>
