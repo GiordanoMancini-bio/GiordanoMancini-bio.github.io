@@ -2,11 +2,11 @@
 main:
   - title: "About Me"
     url: /about/
+  - title: "Hiking"
+    url: /hiking/  
   - title: "Publications"
     url: /publications/
-  - title: "Sample Collections"
-    url: /hiking/
-  # - title: "Sitemap"
+    # - title: "Sitemap"
   #   url: /sitemap/
   # - title: "Quick-Start Guide"
   #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
