@@ -2,4 +2,27 @@
 
 <!-- insert favicons. use https://realfavicongenerator.net/ -->
 
+<style>
+/* Rendiamo quadrata l'immagine del profilo */
+.author__avatar img {
+  border-radius: 0 !important;
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border: 1px solid #f2f3f3;
+}
+
+/* Aumentiamo la specificità per sovrascrivere eventuali stili del tema */
+.masthead .author__avatar img {
+  border-radius: 0 !important;
+}
+
+/* Assicuriamoci che funzioni anche su dispositivi mobili */
+@media (max-width: 1024px) {
+  .author__avatar img {
+    border-radius: 0 !important;
+  }
+}
+</style>
+
 <!-- end custom head snippets -->
