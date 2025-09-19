@@ -146,6 +146,12 @@ footer:
       icon: "fab fa-fw fa-linkedin"
       url: "https://github.com/"
 
+# Pages
+main:
+  - title: "About"
+    url: /about/
+  - title: "Publications"
+    url: /publications/
 
 # Reading Files
 include:
