@@ -2,37 +2,14 @@
 layout: archive
 ---
 
-{{ content }}
-
-{% comment %} Blocco alternato testo/foto personalizzato {% endcomment %}
-
-{% include feature_row
-   id="intro"
-   type="right"
-   image_path="/assets/images/me.jpg"
-   image_alt="Foto personale"
-   title="Chi sono"
-   excerpt="Ciao! Sono Giordano, ricercatore in zoologia e macroecologia." %}
-
-{% include feature_row
-   id="research"
-   type="left"
-   image_path="/assets/images/research.jpg"
-   image_alt="Foto ricerca"
-   title="La mia ricerca"
-   excerpt="Studio la distribuzione delle specie e la priorità delle aree protette usando dati spaziali." %}
-
-<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
-
-{% if paginator %}
-  {% assign posts = paginator.posts %}
-{% else %}
-  {% assign posts = site.posts %}
+{% if page.feature_row %}
+  {% for row in page.feature_row %}
+    {% include feature_row
+       id=row.id
+       type=row.type
+       image_path=row.image_path
+       image_alt=row.image_alt
+       title=row.title
+       excerpt=row.excerpt %}
+  {% endfor %}
 {% endif %}
-
-{% assign entries_layout = page.entries_layout | default: 'list' %}
-<div class="entries-{{ entries_layout }}">
-  {% include documents-collection.html entries=posts type=entries_layout %}
-</div>
-
-{% include paginator.html %}
