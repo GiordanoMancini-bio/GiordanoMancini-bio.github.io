@@ -25,7 +25,7 @@ title                    : "Giordano Mancini's personal website"
 title_separator          : "-"
 subtitle                 : "Last update on 27/05/2025" 
 name                     : ""
-description              : "An amazing website."
+description              : ""
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -120,7 +120,7 @@ author:
   name             : "Giordano Mancini, PhD"
   avatar           : "/assets/images/pic1.png"
   bio              : "Postdoctoral Researcher in conservation biology."
-  location         : 
+  location         : "Sapienza University of Rome"
   email            : "giordano.mancini@uniroma1.it"
   links:
     - label: "Bluesky"
