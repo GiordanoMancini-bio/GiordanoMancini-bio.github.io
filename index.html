@@ -1,4 +1,22 @@
 ---
-layout: home
-author_profile: true
+layout: splash
+title: "Benvenuto nel mio sito"
+permalink: /
+author_profile: false
+
+header:
+  overlay_image: /assets/images/banner.jpg
+  caption: "Foto: credits"
+  actions:
+    - label: "About Me"
+      url: "/about/"
+excerpt: "Sono un ricercatore in zoologia e macroecologia."
+
+intro: 
+  - image_path: /assets/images/me.jpg
+    alt: "Foto personale"
+    title: "Chi sono"
+    excerpt: "Ciao! Sono Giordano, e qui puoi scoprire il mio lavoro di ricerca e le mie pubblicazioni."
 ---
+
+{% include feature_row id="intro" type="left" %}
