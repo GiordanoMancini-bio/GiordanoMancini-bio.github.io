@@ -2,8 +2,8 @@
 main:
   - title: "About Me"
     url: /about/
-  - title: "Hiking"
-    url: /hiking/  
+  - title: "Research"
+    url: /research/  
   - title: "Publications"
     url: /publications/
     # - title: "Sitemap"
