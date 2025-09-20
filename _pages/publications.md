@@ -9,11 +9,11 @@ author_profile: true
 <div style="text-align:justify;">
 
   <ol reversed start="9">
-   <li><strong>Mancini, G.</strong>, Di Marco, M., Carboni, M., Cerretti, P., Maiorano, L., and Santini L. (2025). On the Importance of Expert-Informed Variable Selection in Species Distribution Modelling. <em>Journal of Biogeography</em>, e70037. <a href="https://doi.org/10.1111/jbi.70037">https://doi.org/10.1111/jbi.70037</a></li>
+   <li><strong>Mancini, G.</strong>, Di Marco, M., Carboni, M., Cerretti, P., Maiorano, L., &amp; Santini L. (2025). On the Importance of Expert-Informed Variable Selection in Species Distribution Modelling. <em>Journal of Biogeography</em>, e70037. <a href="https://doi.org/10.1111/jbi.70037">https://doi.org/10.1111/jbi.70037</a></li>
 
-   <li><strong>Mancini, G.</strong>, Santini, L., Cazalis, V., Ficetola, G. F., Meiri, S., Roll, U., Silvestri, S., Pinchera-Donoso, D., and Di Marco, M. (2025). Generation length of the world’s amphibians and reptiles. <em>Ecography</em>, e07527. <a href="https://doi.org/10.1111/ecog.07527">https://doi.org/10.1111/ecog.07527</a></li>
+   <li><strong>Mancini, G.</strong>, Santini, L., Cazalis, V., Ficetola, G. F., Meiri, S., Roll, U., Silvestri, S., Pinchera-Donoso, D., &amp; Di Marco, M. (2025). Generation length of the world’s amphibians and reptiles. <em>Ecography</em>, e07527. <a href="https://doi.org/10.1111/ecog.07527">https://doi.org/10.1111/ecog.07527</a></li>
 
-   <li>Santini, L., Fernando, M., <strong>Mancini, G.</strong> and Di Marco, M. (2024), The Neglected Role of Sex-Biased Dispersal in Range-Shift Prediction Under Climate Change. <em>Diversity and Distribution</em>, 31(2), e13942. <a href="https://doi.org/10.1111/ddi.13942">https://doi.org/10.1111/ddi.13942</a></li>
+   <li>Santini, L., Fernando, M., <strong>Mancini, G.</strong> &amp; Di Marco, M. (2024), The Neglected Role of Sex-Biased Dispersal in Range-Shift Prediction Under Climate Change. <em>Diversity and Distribution</em>, 31(2), e13942. <a href="https://doi.org/10.1111/ddi.13942">https://doi.org/10.1111/ddi.13942</a></li>
 
    <li>Cazalis, V., Di Marco, M., Zizka, A., Butchart, S. H., González-Suárez, M., Böhm, M., ... , <strong>Mancini, G.</strong>, ... &amp; Santini, L. (2024). Accelerating and standardising IUCN Red List assessments with sRedList. <em>Biological Conservation</em>, 298, 110761. <a href="https://doi.org/10.1016/j.biocon.2024.110761">https://doi.org/10.1016/j.biocon.2024.110761</a></li>
 
