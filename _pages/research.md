@@ -11,7 +11,7 @@ author_profile: true
   <div style="flex:1; padding-right:20px; min-width:200px;">
     <img src="/assets/images/sRedList-Logo.png" alt="" style="width:100%; border-radius:10px;">
   </div>
-  <div style="flex:2;">
+  <div style="flex:2; text-align:justify">
     <h3><strong>sRedList</strong></h3>
     <p>
       As a part of my PhD, I have been involved in the <a href="https://sredlist.eu/#/team">sRedList working group</a>. sRedList is a user-friendly web platform designed to streamline the IUCN Red List assessment process.
