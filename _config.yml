@@ -132,6 +132,9 @@ author:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://linkedin.com/"
+    - label: "CV"
+      icon: "fa-solid fa-file"
+      url: "/assets/images/GaP_logo.png"
       
 # Site Footer
 footer:
@@ -145,10 +148,7 @@ footer:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://github.com/"
-    - label: "CV"
-      icon: "fa-solid fa-file"
-      url: "/assets/images/GaP_logo.png"
-
+    
 # Reading Files
 include:
   - .htaccess
