@@ -6,10 +6,10 @@ classes: wide
 author_profile: true
 ---
 
-<!-- sRedList -->
+<!--BLOCCO 1: sRedList -->
 <div style="display:flex; align-items:center; margin-bottom:40px;">
   <div style="flex:1; padding-right:20px;">
-    <img src="/assets/images/sRedList-Logo.png" alt="sRedList" style="width:100%; border-radius:10px;">
+    <img src="/assets/images/sRedList-Logo.png" alt="" style="width:100%; border-radius:10px;">
   </div>
   <div style="flex:2;">
   
