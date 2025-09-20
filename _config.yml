@@ -130,9 +130,9 @@ author:
       icon: "fab fa-fw fa-researchgate"
       url: "https://www.researchgate.net/profile/Giordano-Mancini"
     - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
+      icon: "fa-brands fa-linkedin" #"fab fa-fw fa-linkedin"
       url: "https://linkedin.com/"
-    - label: "CV"
+    - label: "Curriculum"
       icon: "fa-solid fa-file"
       url: "/assets/images/GaP_logo.png"
       
