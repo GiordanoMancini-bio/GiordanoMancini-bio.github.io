@@ -14,9 +14,11 @@ author_profile: true
       I am a conservation scientist, with a strong modeling background. I am currently at Sapienza University of Rome in the 
       <a href="https://www.biodiversitychange.com/">Biodiversity and Global Change (BGC) research lab</a>, 
       where I am involved in the <a href="https://gapbiodiversa.eu/">GaP</a> project.
+    <\p>
+    <p>
       I did my PhD at Sapienza University of Rome under the supervision of 
       <a href="https://www.biodiversitychange.com/moreno-di-marco">Moreno Di Marco</a> and 
-      <a href="https://ecaslab.com/people/">Luca Santini</a>.
+      <a href="https://ecaslab.com/people/">Luca Santini</a>.    
     </p>
     <p>
       In my free time, I like hiking, reading, and cooking.
