@@ -21,3 +21,15 @@ author_profile: true
     <img src="/assets/images/pic2.jpg" alt="" style="width:100%; border-radius:10px;">
   </div>
 </div>
+        
+<!-- Hero image full-width -->
+<div class="hero-image" style="width:50vw; height:60vh; overflow:hidden; position:relative; margin:0;">
+  <img src="/assets/images/monte_miletto.jpg"
+       alt=""
+       style="width:100%; height:100%; object-fit:cover; display:block;">
+       
+  <div style="position:absolute; bottom:5px; right:5px; color:white; 
+              background:rgba(0,0,0,0.4); padding:10px; font-size:0.5em;">
+    View of Lake Matese from Mount Miletto (2050 m), Molise, Italy.
+  </div>
+</div>
