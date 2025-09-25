@@ -7,3 +7,16 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+
+/* === Custom override === */
+/* Rimuove la patina sull'immagine del profilo */
+.author__avatar img {
+  opacity: 1 !important;
+  filter: none !important;
+}
+
+.author__avatar a:hover img {
+  opacity: 1 !important;
+  filter: none !important;
+}
