@@ -21,7 +21,7 @@ author_profile: true
       <a href="https://ecaslab.com/people/">Luca Santini</a>. I also hold a MSc Natural Sciences and a one-year master Statistics and Big Data.
     </p>
     <p>
-      In my free time, I like hiking, reading, and cooking.
+      In my free time, I like hiking, reading, and cooking. I am also a GRASS GIS and Linux fan.
     </p>
   </div>
 
