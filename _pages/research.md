@@ -6,7 +6,7 @@ classes: wide
 author_profile: true
 ---
 
-<!--BLOCCO 1: sRedList -->
+<!--BLOCCO 1: GaP -->
 <div style="display:flex; align-items:center; margin-bottom:40px; flex-wrap:wrap;">
   <div style="flex:1; padding-right:20px; min-width:200px;">
     <img src="/assets/images/GaP_logo.png" alt="" style="width:100%; border-radius:10px;">
@@ -17,7 +17,7 @@ author_profile: true
      The <a href="https://gapbiodiversa.eu/">GaP</a> project is a network of universities, research institutes, NGOs, and the KBA Secretariat. Its mission is to guide the expansion of the EU's protected areas under the Biodiversity Strategy for 2030. The project strengthens the protected area network by identifying priority locations for conservation through key analyses, including a gap analysis for threatened species and a comprehensive KBA scoping study across multiple taxonomic groups.
     </p>
     <p>
-      My work for the GaP project focused on applying and testing KBA Criterion E, which identifies higly irreplaceable areas through spatial prioritization analysis.
+      My work for the GaP project focused on applying and testing KBA Criterion E, which identifies higly irreplaceable areas through spatial prioritization analysis.  Learn more <a href="https://www.biorxiv.org/content/10.1101/2025.10.16.682361v1">here</a>.
     </p>
   </div>
 </div>
