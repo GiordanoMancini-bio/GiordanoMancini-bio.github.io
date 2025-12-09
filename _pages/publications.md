@@ -9,7 +9,7 @@ author_profile: true
 <div style="text-align:justify;">
 
   <ol reversed start="10">
-   <li>Baikova, L., Nocella, E., <strong>Mancini, G.</strong>, Di Giulio, A., Cerna Mendoza, A., Ormeño Luna, J., Marconi, M., Di Marco, M., Vecco-Giove, C. D., &amp; Mancini, E. (2025). Unveiling the Genetic Structure and Ecological Niche Diversification of the Stingless Bee <em>Tetragonisca angustula</em> (Meliponini) in Peruvian Amazon <em>Journal of Biogeography</em>, e70107. <a href="https://doi.org/10.1111/jbi.70037">https://doi.org/10.1111/jbi.70037</a></li>
+   <li>Baikova, L., Nocella, E., <strong>Mancini, G.</strong>, Di Giulio, A., Cerna Mendoza, A., Ormeño Luna, J., Marconi, M., Di Marco, M., Vecco-Giove, C. D., &amp; Mancini, E. (2025). Unveiling the Genetic Structure and Ecological Niche Diversification of the Stingless Bee <em>Tetragonisca angustula</em> (Meliponini) in Peruvian Amazon <em>Journal of Biogeography</em>, e70107. <a href="https://doi.org/10.1111/jbi.70107">https://doi.org/10.1111/jbi.70107</a></li>
     
    <li><strong>Mancini, G.</strong>, Di Marco, M., Carboni, M., Cerretti, P., Maiorano, L., &amp; Santini, L. (2025). On the Importance of Expert-Informed Variable Selection in Species Distribution Modelling. <em>Journal of Biogeography</em>, e70037. <a href="https://doi.org/10.1111/jbi.70037">https://doi.org/10.1111/jbi.70037</a></li>
 
