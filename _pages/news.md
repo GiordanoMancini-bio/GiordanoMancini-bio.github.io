@@ -18,6 +18,5 @@ author_profile: true
     <p>
       This study is the result of a collaboration between modelers and Red List authorities aimed at standardizing the measurement of the impact of future climate change in the context of Red List extinction risk assessments. Full paper <a href="https://doi.org/10.1111/cobi.14227">here</a>
     </p>
-  </div>
  </div>
 </div>
