@@ -12,7 +12,7 @@ author_profile: true
     <img src="/assets/images/certif_paper.png" alt="" style="width:100%; border-radius:10px;">
   </div>
   <div style="flex:2; text-align:justify">
-    <h3><strong>GaP</strong></h3>
+    <h3><strong>Highly cited paper</strong></h3>
     <p>
       I am very pleased that my paper <i>A standard approach for including climate change responses in IUCN Red List assessments</i> has been recognized as one of the top 10 most-cited papers published in Conservation Biology in 2025.
     </p>
