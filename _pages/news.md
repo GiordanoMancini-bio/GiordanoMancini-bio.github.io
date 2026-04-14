@@ -15,6 +15,7 @@ author_profile: true
     <h3><strong>GaP</strong></h3>
     <p>
       I am very pleased that my paper <i>A standard approach for including climate change responses in IUCN Red List assessments</i> has been recognized as one of the top 10 most-cited papers published in Conservation Biology in 2025.
+    </p>
     <p>
       This study is the result of a collaboration between modelers and Red List authorities aimed at standardizing the measurement of the impact of future climate change in the context of Red List extinction risk assessments. Full paper <a href="https://doi.org/10.1111/cobi.14227">here</a>
     </p>
