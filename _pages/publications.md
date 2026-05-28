@@ -9,7 +9,7 @@ author_profile: true
 <div style="text-align:justify;">
 
   <ol reversed start="11">
-    <li><strong>Mancini, G.</strong>, Mezzanotte, V., Santini, L., &amp; Di Marco, M. (2026). The risk of underestimating generation length for extinction risk assessments. <em>Cambridge Prisms: Extinction</em>. <a href="https://doi.org/10.1017/ext.2026.10012">https://doi.org/10.1017/ext.2026.10012</a></li>
+    <li><strong>Mancini, G.</strong>, Mezzanotte, V., Santini, L., &amp; Di Marco, M. (2026). The risk of underestimating generation length for extinction risk assessments. <em>Cambridge Prisms: Extinction</em>, 4, e5, 1–8. <a href="https://doi.org/10.1017/ext.2026.10012">https://doi.org/10.1017/ext.2026.10012</a></li>
 
   <li>Baikova, L., Nocella, E., <strong>Mancini, G.</strong>, Di Giulio, A., Cerna Mendoza, A., Ormeño Luna, J., Marconi, M., Di Marco, M., Vecco-Giove, C. D., &amp; Mancini, E. (2025). Unveiling the Genetic Structure and Ecological Niche Diversification of the Stingless Bee <em>Tetragonisca angustula</em> (Meliponini) in Peruvian Amazon. <em>Journal of Biogeography</em>, e70107. <a href="https://doi.org/10.1111/jbi.70107">https://doi.org/10.1111/jbi.70107</a></li>
     
