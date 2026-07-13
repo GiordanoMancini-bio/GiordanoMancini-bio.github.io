@@ -9,7 +9,7 @@ author_profile: true
 <!--BLOCCO 1: Highly cited paper 2025 in Conservation Biology -->
 <div style="display:flex; align-items:center; margin-bottom:40px; flex-wrap:wrap;">
   <div style="flex:1; padding-right:20px; min-width:200px;">
-    <img src="/assets/images/pic_poster.jpg" alt="" style="width:100%; border-radius:10px;">
+    <img src="/assets/images/pic_poster.png" alt="" style="width:100%; border-radius:10px;">
   </div>
     <div style="flex:2; text-align:justify">
     <h3><strong>European Congress of Conservation Biology 226 in Leiden</strong></h3>
