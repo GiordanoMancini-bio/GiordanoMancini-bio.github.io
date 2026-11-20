@@ -19,13 +19,22 @@
 
 - type: article
   year: 2026
+  authors: "Baikova, L., Nocella, E., Mancini, G., Di Giulio, A., Cerna Mendoza, A., Ormeño Luna, J., Vecco-Giove, C. D., Marconi, M., Di Marco, M., & Mancini, E."
+  title: "Stingless but tricky: pitfalls and prospects of barcoding the large Meliponini genus <em>Trigona</em>"
+  journal: "Organisms Diversity & Evolution"
+  details: "online first"
+  doi: "10.1007/s13127-026-00722-4"
+  tags: [barcoding, Trigona]
+
+- type: article
+  year: 2026
   authors: "Mancini, G., Mezzanotte, V., Santini, L., & Di Marco, M."
   title: "The risk of underestimating generation length for extinction risk assessments"
   journal: "Cambridge Prisms: Extinction"
   details: "4, e5, 1–8"
   doi: "10.1017/ext.2026.10012"
   featured: true
-  tags: [Red List, life history]
+  tags: [Red List, deforestation, climate change]
 
 - type: article
   year: 2025
@@ -34,7 +43,7 @@
   journal: "Journal of Biogeography"
   details: "e70107"
   doi: "10.1111/jbi.70107"
-  tags: [SDM, insects]
+  tags: [Meliponini, insects]
 
 - type: article
   year: 2025
@@ -85,7 +94,7 @@
   journal: "Conservation Biology"
   details: "e14316"
   doi: "10.1111/cobi.14316"
-  tags: [Red List]
+  tags: [Red List, extinction risk]
 
 - type: article
   year: 2024
@@ -94,7 +103,7 @@
   journal: "Global Change Biology"
   details: "30, e17119"
   doi: "10.1111/gcb.17119"
-  tags: [Red List]
+  tags: [Red List, extinction risk, birds]
 
 - type: article
   year: 2024
@@ -105,7 +114,7 @@
   doi: "10.1111/cobi.14227"
   featured: true
   award: "Top cited article 2025"
-  tags: [Red List, climate change]
+  tags: [Red List, climate change, extinction risk]
 
 - type: article
   year: 2023
