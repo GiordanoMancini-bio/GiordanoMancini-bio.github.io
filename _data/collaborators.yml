@@ -8,13 +8,19 @@
   home: true
   people:
   - name: Moreno Di Marco
-    papers: 12
+    papers: 13
   - name: Luca Santini
     papers: 10
   - name: Michela Pacifici
     papers: 3
   - name: Liliia Baikova
-    papers: 1
+    papers: 2
+  - name: Emiliano Mancini
+    papers: 2
+  - name: Marilena Marconi
+    papers: 2
+  - name: Elisa Nocella
+    papers: 2
   - name: Pierfilippo Cerretti
     papers: 1
   - name: Marta Cimatti
@@ -23,13 +29,7 @@
     papers: 1
   - name: Luigi Maiorano
     papers: 1
-  - name: Emiliano Mancini
-    papers: 1
-  - name: Marilena Marconi
-    papers: 1
   - name: Valerio Mezzanotte
-    papers: 1
-  - name: Elisa Nocella
     papers: 1
   - name: Carlo Rondinini
     papers: 1
@@ -113,11 +113,11 @@
   home: false
   people:
   - name: Javier Ormeño Luna
-    papers: 1
+    papers: 2
   - name: Agustín Cerna Mendoza
-    papers: 1
+    papers: 2
   - name: Carlos Daniel Vecco-Giove
-    papers: 1
+    papers: 2
   country: Peru
 - institution: University of Lisbon / Univ. of Helsinki
   place: Lisbon, Portugal
@@ -161,9 +161,9 @@
   lon: 12.4793
   home: false
   people:
-  - name: Marta Carboni
-    papers: 1
   - name: Andrea Di Giulio
+    papers: 2
+  - name: Marta Carboni
     papers: 1
   country: Italy
 - institution: National Research Council (CNR)
