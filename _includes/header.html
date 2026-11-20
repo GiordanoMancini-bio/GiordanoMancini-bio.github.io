@@ -1,0 +1,20 @@
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="{{ '/' | relative_url }}">
+      <span class="brand-mark">GM</span>
+      <span class="brand-text">Giordano Mancini</span>
+    </a>
+    <button class="nav-toggle" aria-label="Open menu" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded')!=='true'); document.body.classList.toggle('nav-open')">
+      <i class="fa-solid fa-bars"></i>
+    </button>
+    <nav class="site-nav" aria-label="Main">
+      {% for item in site.navigation %}
+        {% assign active = false %}
+        {% if item.url == '/' %}{% if page.url == '/' %}{% assign active = true %}{% endif %}
+        {% elsif page.url contains item.url %}{% assign active = true %}{% endif %}
+        <a href="{{ item.url | relative_url }}"{% if active %} class="active" aria-current="page"{% endif %}>{{ item.title }}</a>
+      {% endfor %}
+      <a class="nav-cv" href="{{ '/assets/files/Giordano_Mancini_CV.pdf' | relative_url }}"><i class="fa-solid fa-download"></i> CV</a>
+    </nav>
+  </div>
+</header>

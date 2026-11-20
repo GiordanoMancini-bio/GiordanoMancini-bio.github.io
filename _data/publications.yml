@@ -1,0 +1,126 @@
+# ------------------------------------------------------------
+#  Publications – add new entries at the TOP.
+#  Fields:
+#    type:     article | preprint | chapter | report
+#    authors:  write your name exactly as "Mancini, G." to get it highlighted
+#    featured: true  -> also shown on the homepage
+#    award:    short badge text (optional)
+#    links:    any extra buttons (label + url), e.g. data, code, pdf
+# ------------------------------------------------------------
+
+- type: preprint
+  year: 2025
+  authors: "Mancini, G., Cimatti, M., Tzivanopoulos, M., Thuiller, W., & Di Marco, M."
+  title: "Opportunities and challenges for applying Key Biodiversity Areas Criterion E at large spatial scales"
+  journal: "bioRxiv"
+  doi: "10.1101/2025.10.16.682361"
+  featured: true
+  tags: [KBA, spatial prioritization]
+
+- type: article
+  year: 2026
+  authors: "Mancini, G., Mezzanotte, V., Santini, L., & Di Marco, M."
+  title: "The risk of underestimating generation length for extinction risk assessments"
+  journal: "Cambridge Prisms: Extinction"
+  details: "4, e5, 1–8"
+  doi: "10.1017/ext.2026.10012"
+  featured: true
+  tags: [Red List, life history]
+
+- type: article
+  year: 2025
+  authors: "Baikova, L., Nocella, E., Mancini, G., Di Giulio, A., Cerna Mendoza, A., Ormeño Luna, J., Marconi, M., Di Marco, M., Vecco-Giove, C. D., & Mancini, E."
+  title: "Unveiling the genetic structure and ecological niche diversification of the stingless bee <em>Tetragonisca angustula</em> (Meliponini) in Peruvian Amazon"
+  journal: "Journal of Biogeography"
+  details: "e70107"
+  doi: "10.1111/jbi.70107"
+  tags: [SDM, insects]
+
+- type: article
+  year: 2025
+  authors: "Mancini, G., Di Marco, M., Carboni, M., Cerretti, P., Maiorano, L., & Santini, L."
+  title: "On the importance of expert-informed variable selection in species distribution modelling"
+  journal: "Journal of Biogeography"
+  details: "e70037"
+  doi: "10.1111/jbi.70037"
+  featured: true
+  tags: [SDM]
+
+- type: article
+  year: 2025
+  authors: "Mancini, G., Santini, L., Cazalis, V., Ficetola, G. F., Meiri, S., Roll, U., Silvestri, S., Pincheira-Donoso, D., & Di Marco, M."
+  title: "Generation length of the world's amphibians and reptiles"
+  journal: "Ecography"
+  details: "e07527"
+  doi: "10.1111/ecog.07527"
+  featured: true
+  tags: [Red List, life history]
+  links:
+    - { label: "Data (Dryad)", url: "https://doi.org/10.5061/dryad.w0vt4b93t" }
+
+- type: article
+  year: 2025
+  authors: "Santini, L., Fernando, M., Mancini, G., & Di Marco, M."
+  title: "The neglected role of sex-biased dispersal in range-shift prediction under climate change"
+  journal: "Diversity and Distributions"
+  details: "31(2), e13942"
+  doi: "10.1111/ddi.13942"
+  tags: [climate change, dispersal]
+
+- type: article
+  year: 2024
+  authors: "Cazalis, V., Di Marco, M., Zizka, A., Butchart, S. H. M., González-Suárez, M., Böhm, M., … Mancini, G., … & Santini, L."
+  title: "Accelerating and standardising IUCN Red List assessments with sRedList"
+  journal: "Biological Conservation"
+  details: "298, 110761"
+  doi: "10.1016/j.biocon.2024.110761"
+  tags: [Red List, tools]
+  links:
+    - { label: "sRedList platform", url: "https://sredlist.eu/" }
+
+- type: article
+  year: 2024
+  authors: "Lucas, P. M., Di Marco, M., Cazalis, V., Luedtke, J., Neam, K., Brown, M. H., Langhammer, P., Mancini, G., & Santini, L."
+  title: "Using comparative extinction risk analysis to prioritize the IUCN Red List reassessments of amphibians"
+  journal: "Conservation Biology"
+  details: "e14316"
+  doi: "10.1111/cobi.14316"
+  tags: [Red List]
+
+- type: article
+  year: 2024
+  authors: "Henry, E. G., Santini, L., Butchart, S. H. M., González-Suárez, M., Lucas, P. M., Benítez-López, A., Mancini, G., Jung, M., Cardoso, P., Zizka, A., Meyer, C., Akçakaya, H. R., Berryman, A. J., Cazalis, V., & Di Marco, M."
+  title: "Modelling the probability of meeting IUCN Red List criteria to support reassessments"
+  journal: "Global Change Biology"
+  details: "30, e17119"
+  doi: "10.1111/gcb.17119"
+  tags: [Red List]
+
+- type: article
+  year: 2024
+  authors: "Mancini, G., Santini, L., Cazalis, V., Akçakaya, H. R., Lucas, P. M., Brooks, T. M., Foden, W., & Di Marco, M."
+  title: "A standard approach for including climate change responses in IUCN Red List assessments"
+  journal: "Conservation Biology"
+  details: "38(3), e14227"
+  doi: "10.1111/cobi.14227"
+  featured: true
+  award: "Top cited article 2025"
+  tags: [Red List, climate change]
+
+- type: article
+  year: 2023
+  authors: "Cazalis, V., Santini, L., Lucas, P. M., González-Suárez, M., Hoffmann, M., Benítez-López, A., Pacifici, M., Schipper, A. M., Böhm, M., Zizka, A., Clausnitzer, V., Meyer, C., Jung, M., Butchart, S. H. M., Cardoso, P., Mancini, G., Akçakaya, H. R., Young, B. E., Patoine, G., & Di Marco, M."
+  title: "Prioritizing the reassessment of data-deficient species on the IUCN Red List"
+  journal: "Conservation Biology"
+  details: "e14139"
+  doi: "10.1111/cobi.14139"
+  tags: [Red List]
+
+- type: article
+  year: 2023
+  authors: "Mancini, G., Benítez-López, A., Di Marco, M., Pacifici, M., Rondinini, C., & Santini, L."
+  title: "Synergistic effects of habitat fragmentation and hunting on the extinction risk of neotropical primates"
+  journal: "Biodiversity and Conservation"
+  details: "32, 2655–2669"
+  doi: "10.1007/s10531-023-02623-w"
+  tags: [extinction risk, primates]

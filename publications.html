@@ -1,0 +1,58 @@
+---
+layout: page
+title: Publications
+kicker: Research output
+lead: "Peer-reviewed articles and preprints. My name is highlighted; DOIs link to the publisher version."
+---
+{% assign pubs = site.data.publications %}
+{% assign articles = pubs | where: "type", "article" %}
+{% assign preprints = pubs | where: "type", "preprint" %}
+{% assign firsts = 0 %}{% for p in articles %}{% assign a = p.authors | slice: 0, 11 %}{% if a == "Mancini, G." %}{% assign firsts = firsts | plus: 1 %}{% endif %}{% endfor %}
+
+<div class="stats">
+  <div><strong>{{ articles.size }}</strong><span>peer-reviewed articles</span></div>
+  <div><strong>{{ firsts }}</strong><span>as first author</span></div>
+  <div><strong>{{ preprints.size }}</strong><span>preprint{% if preprints.size != 1 %}s{% endif %}</span></div>
+  <div class="stats-links">
+    <a class="btn-sm" href="https://scholar.google.com/citations?user=XXohaKkAAAAJ"><i class="ai ai-google-scholar"></i> Scholar</a>
+    <a class="btn-sm" href="https://orcid.org/0000-0001-9208-4253"><i class="ai ai-orcid"></i> ORCID</a>
+    <a class="btn-sm" href="https://www.researchgate.net/profile/Giordano-Mancini"><i class="ai ai-researchgate"></i> ResearchGate</a>
+  </div>
+</div>
+
+<div class="filters" role="group" aria-label="Filter publications">
+  <button class="chip active" data-filter="">All</button>
+  <button class="chip" data-filter="red list">Red List</button>
+  <button class="chip" data-filter="climate change">Climate change</button>
+  <button class="chip" data-filter="sdm">SDMs</button>
+  <button class="chip" data-filter="life history">Life history</button>
+  <button class="chip" data-filter="kba">KBAs</button>
+</div>
+
+{% if preprints.size > 0 %}
+<h2 class="year">Preprints</h2>
+<ol class="pubs">{% for p in preprints %}{% include pub.html p=p %}{% endfor %}</ol>
+{% endif %}
+
+{% assign by_year = articles | group_by: "year" | sort: "name" | reverse %}
+{% for y in by_year %}
+<h2 class="year">{{ y.name }}</h2>
+<ol class="pubs">{% for p in y.items %}{% include pub.html p=p %}{% endfor %}</ol>
+{% endfor %}
+
+<script>
+document.querySelectorAll('.filters .chip').forEach(function (b) {
+  b.addEventListener('click', function () {
+    document.querySelectorAll('.filters .chip').forEach(function (x) { x.classList.remove('active'); });
+    b.classList.add('active');
+    var f = b.dataset.filter;
+    document.querySelectorAll('.pubs .pub').forEach(function (li) {
+      li.hidden = f && li.dataset.tags.split('|').indexOf(f) === -1;
+    });
+    document.querySelectorAll('h2.year').forEach(function (h) {
+      var list = h.nextElementSibling;
+      h.hidden = list && !list.querySelector('.pub:not([hidden])');
+    });
+  });
+});
+</script>

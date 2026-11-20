@@ -1,5 +1,79 @@
 ---
-layout: home
-author_profile: true
+layout: default
+title: Home
+body_class: home
 ---
-{% include welcome.html %}
+<section class="hero" style="--hero: url('{{ '/assets/img/monte-miletto.jpg' | relative_url }}')">
+  <div class="wrap hero-inner">
+    <img class="hero-avatar" src="{{ site.author.avatar | relative_url }}" alt="Giordano Mancini" width="220" height="220">
+    <div class="hero-text">
+      <p class="kicker">Conservation scientist</p>
+      <h1>Giordano Mancini, PhD</h1>
+      <p class="hero-sub">{{ site.author.position }} · <a href="{{ site.author.affiliation_url }}">Biodiversity &amp; Global Change Lab</a>, Sapienza University of Rome</p>
+      <p class="hero-lead">I use models and global data to understand how species respond to environmental change, and to turn that knowledge into tools for the IUCN Red List and for conservation planning.</p>
+      {% include social.html email=true %}
+    </div>
+  </div>
+  <p class="hero-caption">Lake Matese from Mount Miletto (2050 m), Molise, Italy</p>
+</section>
+
+<section class="wrap section about">
+  <div class="about-text">
+    <h2>About me</h2>
+    <p>I am a conservation scientist with a strong modelling background. I am currently at Sapienza University of Rome in the
+      <a href="https://www.biodiversitychange.com/">Biodiversity and Global Change (BGC) lab</a>, where I work in the
+      <a href="https://gapbiodiversa.eu/">GaP</a> project on Key Biodiversity Areas and the expansion of Europe's protected areas.</p>
+    <p>I did my PhD at Sapienza under the supervision of
+      <a href="https://www.biodiversitychange.com/moreno-di-marco">Moreno Di Marco</a> and
+      <a href="https://ecaslab.com/people/">Luca Santini</a>, working on how to assess species' exposure to climate change in IUCN Red List assessments.
+      I also hold an MSc in Natural Sciences and a second-level master in Statistics and Big Data.</p>
+    <p>In my free time I like hiking, reading and cooking. I am also a GRASS GIS and Linux fan.</p>
+    <a class="btn" href="{{ '/assets/files/Giordano_Mancini_CV.pdf' | relative_url }}"><i class="fa-solid fa-file-lines"></i> Download CV</a>
+  </div>
+  <figure class="about-photo">
+    <img src="{{ '/assets/img/portrait.jpg' | relative_url }}" alt="Giordano hiking in the Apennines" loading="lazy">
+  </figure>
+</section>
+
+<section class="band">
+  <div class="wrap section">
+    <h2>Research interests</h2>
+    <div class="cards cards-4">
+      <div class="card"><i class="fa-solid fa-list-check"></i><h3>Extinction risk &amp; Red List</h3><p>Standardising how models and data feed into IUCN Red List assessments.</p></div>
+      <div class="card"><i class="fa-solid fa-temperature-arrow-up"></i><h3>Climate change impacts</h3><p>Measuring species' exposure and responses to future climate.</p></div>
+      <div class="card"><i class="fa-solid fa-map-location-dot"></i><h3>Species distribution models</h3><p>Ecologically informed SDMs and habitat suitability across taxa.</p></div>
+      <div class="card"><i class="fa-solid fa-layer-group"></i><h3>Key Biodiversity Areas</h3><p>Spatial prioritisation and irreplaceability (KBA Criterion E).</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="wrap section two-col">
+  <div>
+    <div class="section-head"><h2>Latest news</h2><a href="{{ '/news/' | relative_url }}">All news →</a></div>
+    {% for n in site.data.news limit:3 %}
+    <article class="news-mini">
+      <time>{% if n.date_label %}{{ n.date_label }}{% else %}{{ n.date | date: "%B %Y" }}{% endif %}</time>
+      <h3>{{ n.title }}</h3>
+      <p>{{ n.body | strip_html | truncatewords: 32 }}</p>
+    </article>
+    {% endfor %}
+  </div>
+  <div>
+    <div class="section-head"><h2>Selected publications</h2><a href="{{ '/publications/' | relative_url }}">All publications →</a></div>
+    <ol class="pubs compact">
+      {% assign featured = site.data.publications | where: "featured", true %}
+      {% for p in featured limit:4 %}{% include pub.html p=p %}{% endfor %}
+    </ol>
+  </div>
+</section>
+
+<section class="band band-dark">
+  <div class="wrap section cta">
+    <div>
+      <h2>A global network</h2>
+      {% assign ncollab = 0 %}{% for i in site.data.collaborators %}{% assign ncollab = ncollab | plus: i.people.size %}{% endfor %}
+      <p>{{ ncollab }} co-authors from {{ site.data.collaborators.size }} institutions across Europe, the Americas, Africa and the Middle East.</p>
+    </div>
+    <a class="btn btn-light" href="{{ '/collaborations/' | relative_url }}"><i class="fa-solid fa-earth-europe"></i> Explore the collaboration map</a>
+  </div>
+</section>

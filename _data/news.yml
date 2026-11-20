@@ -1,0 +1,24 @@
+# News – newest first. Optional `date_label` overrides the displayed date (e.g. "2026"). `image` is optional; `body` accepts HTML.
+- date: 2026-07-15
+  title: "ECCB 2026 in Leiden"
+  image: /assets/img/news-eccb2026.jpg
+  image_alt: "Poster presented at ECCB 2026"
+  body: >-
+    In July 2026 I presented our latest work on Key Biodiversity Areas,
+    <em>Opportunities and challenges for applying Key Biodiversity Areas Criterion E at large spatial scales</em>,
+    at the European Congress of Conservation Biology in Leiden. It is always nice to spend these days with
+    old friends and meet new colleagues! We tested KBA Criterion E across Europe using a large database of
+    habitat suitability maps for tetrapods and insects.
+    <a href="https://doi.org/10.1101/2025.10.16.682361">Read the preprint</a>.
+
+- date: 2026-01-01
+  date_label: "2026"
+  title: "Top cited article in Conservation Biology"
+  image: /assets/img/news-highly-cited.jpg
+  image_alt: "Wiley Top Cited Article certificate"
+  body: >-
+    Our paper <em>A standard approach for including climate change responses in IUCN Red List assessments</em>
+    was recognised by Wiley as one of the top cited articles in <em>Conservation Biology</em>.
+    It is the result of a collaboration between modellers and Red List authorities to standardise how future
+    climate change impacts are measured in extinction risk assessments.
+    <a href="https://doi.org/10.1111/cobi.14227">Read the paper</a>.

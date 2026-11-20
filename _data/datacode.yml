@@ -1,0 +1,26 @@
+# Data & Code – add datasets, R packages, scripts, tools.
+# kind: dataset | code | tool
+- kind: dataset
+  title: "Generation length of the world's amphibians and reptiles"
+  description: >-
+    Modelled generation length estimates for thousands of amphibian, squamate and turtle species,
+    with body mass and data sources. Ready to use in IUCN Red List assessments.
+  url: "https://doi.org/10.5061/dryad.w0vt4b93t"
+  host: "Dryad"
+  paper: "10.1111/ecog.07527"
+
+- kind: tool
+  title: "sRedList platform"
+  description: >-
+    Web platform that streamlines IUCN Red List assessments using open data and models.
+    I contributed the standardised approach to include climate change responses.
+  url: "https://sredlist.eu/"
+  host: "sredlist.eu"
+  paper: "10.1016/j.biocon.2024.110761"
+
+- kind: code
+  title: "GitHub repositories"
+  description: >-
+    Analysis code and scripts (R, GRASS GIS) for my projects.
+  url: "https://github.com/GiordanoMancini-bio"
+  host: "GitHub"

@@ -1,0 +1,6 @@
+<ul class="social">
+  {% for l in site.links %}{% if l.url != "" %}
+  <li><a href="{% if l.url contains '://' %}{{ l.url }}{% else %}{{ l.url | relative_url }}{% endif %}" title="{{ l.label }}" aria-label="{{ l.label }}"{% if l.url contains '://' %} rel="me noopener" target="_blank"{% endif %}><i class="{{ l.icon }}"></i>{% if include.labels %}<span>{{ l.label }}</span>{% endif %}</a></li>
+  {% endif %}{% endfor %}
+  {% if include.email %}<li><a href="mailto:{{ site.author.email }}" title="Email" aria-label="Email"><i class="fa-solid fa-envelope"></i>{% if include.labels %}<span>Email</span>{% endif %}</a></li>{% endif %}
+</ul>

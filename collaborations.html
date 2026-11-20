@@ -1,0 +1,31 @@
+---
+layout: page
+title: Collaborations
+kicker: Network
+map: true
+lead: "Where my co-authors come from. Countries are shaded by number of co-authors; circles mark their institutions, sized by joint publications. Click a circle to see who."
+---
+{% assign ncollab = 0 %}{% assign npapers = 0 %}{% for i in site.data.collaborators %}{% assign ncollab = ncollab | plus: i.people.size %}{% endfor %}
+<div class="stats">
+  <div><strong>{{ ncollab }}</strong><span>co-authors</span></div>
+  <div><strong>{{ site.data.collaborators.size }}</strong><span>institutions</span></div>
+  {% assign countries = site.data.collaborators | map: "country" | uniq %}
+  <div><strong>{{ countries.size }}</strong><span>countries</span></div>
+  <div><strong>{{ site.data.publications.size }}</strong><span>papers &amp; preprints</span></div>
+</div>
+<div id="collab-map" class="map" role="region" aria-label="World map of co-authors' countries and institutions" data-world="{{ '/assets/data/world.geojson' | relative_url }}"></div>
+<ul id="country-chips" class="country-chips" aria-label="Co-authors per country"></ul>
+<details class="collab-list">
+  <summary>Full list of collaborators</summary>
+  <div class="cards cards-3">
+  {% for i in site.data.collaborators %}
+    <div class="card"><h3>{{ i.institution }}</h3><p class="meta">{{ i.place }}</p>
+      <ul>{% for p in i.people %}<li>{{ p.name }} <span class="muted">({{ p.papers }})</span></li>{% endfor %}</ul></div>
+  {% endfor %}
+  </div>
+</details>
+<p class="note">Affiliations from <a href="https://openalex.org">OpenAlex</a> and the papers; each collaborator is shown at one main institution. Country boundaries: <a href="https://www.naturalearthdata.com/">Natural Earth</a>.</p>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+<script>window.COLLAB = {{ site.data.collaborators | jsonify }};</script>
+<script src="{{ '/assets/js/collab-map.js' | relative_url }}"></script>

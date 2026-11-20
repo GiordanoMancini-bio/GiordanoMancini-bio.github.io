@@ -1,0 +1,15 @@
+---
+layout: page
+title: News
+kicker: Updates
+---
+{% for n in site.data.news %}
+<article class="news-item">
+  {% if n.image %}<img src="{{ n.image | relative_url }}" alt="{{ n.image_alt }}" loading="lazy">{% endif %}
+  <div>
+    <time>{% if n.date_label %}{{ n.date_label }}{% else %}{{ n.date | date: "%B %Y" }}{% endif %}</time>
+    <h2>{{ n.title }}</h2>
+    <p>{{ n.body }}</p>
+  </div>
+</article>
+{% endfor %}

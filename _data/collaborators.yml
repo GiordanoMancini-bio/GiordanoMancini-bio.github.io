@@ -1,0 +1,298 @@
+# Collaboration map. One entry per institution.
+# country must match the country name in assets/data/world.geojson (Natural Earth names).
+# papers = number of joint papers with that person.
+- institution: Sapienza University of Rome
+  place: Rome, Italy
+  lat: 41.9038
+  lon: 12.5144
+  home: true
+  people:
+  - name: Moreno Di Marco
+    papers: 12
+  - name: Luca Santini
+    papers: 10
+  - name: Michela Pacifici
+    papers: 3
+  - name: Liliia Baikova
+    papers: 1
+  - name: Pierfilippo Cerretti
+    papers: 1
+  - name: Marta Cimatti
+    papers: 1
+  - name: Martina Fernando
+    papers: 1
+  - name: Luigi Maiorano
+    papers: 1
+  - name: Emiliano Mancini
+    papers: 1
+  - name: Marilena Marconi
+    papers: 1
+  - name: Valerio Mezzanotte
+    papers: 1
+  - name: Elisa Nocella
+    papers: 1
+  - name: Carlo Rondinini
+    papers: 1
+  - name: Sofia Silvestri
+    papers: 1
+  country: Italy
+- institution: German Centre for Integrative Biodiversity Research (iDiv)
+  place: Leipzig, Germany
+  lat: 51.3184
+  lon: 12.3943
+  home: false
+  people:
+  - name: Victor Cazalis
+    papers: 6
+  - name: Carsten Meyer
+    papers: 3
+  - name: Etienne G. Henry
+    papers: 1
+  - name: Guillaume Patoine
+    papers: 1
+  country: Germany
+- institution: BirdLife International / IUCN (Cambridge)
+  place: Cambridge, UK
+  lat: 52.2053
+  lon: 0.1218
+  home: false
+  people:
+  - name: Stuart H. M. Butchart
+    papers: 3
+  - name: Alex J. Berryman
+    papers: 1
+  - name: Craig Hilton-Taylor
+    papers: 1
+  country: United Kingdom
+- institution: Universidad de Sevilla
+  place: Seville, Spain
+  lat: 37.3772
+  lon: -5.9869
+  home: false
+  people:
+  - name: Pablo M. Lucas
+    papers: 5
+  country: Spain
+- institution: Stony Brook University
+  place: Stony Brook, USA
+  lat: 40.9126
+  lon: -73.1234
+  home: false
+  people:
+  - name: H. Reşit Akçakaya
+    papers: 4
+  country: United States of America
+- institution: Museo Nacional de Ciencias Naturales (CSIC)
+  place: Madrid, Spain
+  lat: 40.4407
+  lon: -3.6897
+  home: false
+  people:
+  - name: Ana Benítez-López
+    papers: 4
+  country: Spain
+- institution: Re:wild
+  place: Austin, USA
+  lat: 30.2672
+  lon: -97.7431
+  home: false
+  people:
+  - name: M. H. Brown
+    papers: 1
+  - name: Penny F. Langhammer
+    papers: 1
+  - name: Jennifer A. Luedtke
+    papers: 1
+  - name: Kelsey Neam
+    papers: 1
+  country: United States of America
+- institution: Universidad Nacional de San Martín
+  place: Tarapoto, Peru
+  lat: -6.4875
+  lon: -76.36
+  home: false
+  people:
+  - name: Javier Ormeño Luna
+    papers: 1
+  - name: Agustín Cerna Mendoza
+    papers: 1
+  - name: Carlos Daniel Vecco-Giove
+    papers: 1
+  country: Peru
+- institution: University of Lisbon / Univ. of Helsinki
+  place: Lisbon, Portugal
+  lat: 38.7569
+  lon: -9.157
+  home: false
+  people:
+  - name: Pedro Cardoso
+    papers: 3
+  country: Portugal
+- institution: IIASA
+  place: Laxenburg, Austria
+  lat: 48.0686
+  lon: 16.3566
+  home: false
+  people:
+  - name: Martin Jung
+    papers: 3
+  country: Austria
+- institution: University of Reading
+  place: Reading, UK
+  lat: 51.4414
+  lon: -0.9418
+  home: false
+  people:
+  - name: Manuela González-Suárez
+    papers: 3
+  country: United Kingdom
+- institution: Philipps University of Marburg
+  place: Marburg, Germany
+  lat: 50.81
+  lon: 8.774
+  home: false
+  people:
+  - name: Alexander Zizka
+    papers: 3
+  country: Germany
+- institution: Roma Tre University
+  place: Rome, Italy
+  lat: 41.8635
+  lon: 12.4793
+  home: false
+  people:
+  - name: Marta Carboni
+    papers: 1
+  - name: Andrea Di Giulio
+    papers: 1
+  country: Italy
+- institution: National Research Council (CNR)
+  place: Bari / Lecce, Italy
+  lat: 40.8
+  lon: 17.3
+  home: false
+  people:
+  - name: Francesco De Leo
+    papers: 1
+  - name: Ilaria Rosati
+    papers: 1
+  country: Italy
+- institution: Indianapolis Zoo
+  place: Indianapolis, USA
+  lat: 39.767
+  lon: -86.179
+  home: false
+  people:
+  - name: Monika Böhm
+    papers: 2
+  country: United States of America
+- institution: Radboud University / PBL
+  place: Nijmegen, Netherlands
+  lat: 51.8193
+  lon: 5.8668
+  home: false
+  people:
+  - name: Aafke M. Schipper
+    papers: 2
+  country: Netherlands
+- institution: Zoological Society of London
+  place: London, UK
+  lat: 51.5353
+  lon: -0.1534
+  home: false
+  people:
+  - name: Michael Hoffmann
+    papers: 2
+  country: United Kingdom
+- institution: NatureServe
+  place: Arlington, USA
+  lat: 38.8816
+  lon: -77.1043
+  home: false
+  people:
+  - name: Bruce E. Young
+    papers: 2
+  country: United States of America
+- institution: Senckenberg Museum of Natural History
+  place: Görlitz, Germany
+  lat: 51.155
+  lon: 14.987
+  home: false
+  people:
+  - name: Viola Clausnitzer
+    papers: 2
+  country: Germany
+- institution: IUCN
+  place: Gland, Switzerland
+  lat: 46.4155
+  lon: 6.2678
+  home: false
+  people:
+  - name: Thomas M. Brooks
+    papers: 2
+  country: Switzerland
+- institution: CNRS – Laboratoire d'Écologie Alpine
+  place: Grenoble, France
+  lat: 45.1934
+  lon: 5.7681
+  home: false
+  people:
+  - name: Wilfried Thuiller
+    papers: 1
+  - name: Marianne Tzivanopoulos
+    papers: 1
+  country: France
+- institution: Tel Aviv University
+  place: Tel Aviv, Israel
+  lat: 32.1133
+  lon: 34.8044
+  home: false
+  people:
+  - name: Shai Meiri
+    papers: 1
+  country: Israel
+- institution: Ben-Gurion University of the Negev
+  place: Beersheba, Israel
+  lat: 31.2622
+  lon: 34.8013
+  home: false
+  people:
+  - name: Uri Roll
+    papers: 1
+  country: Israel
+- institution: Queen's University Belfast
+  place: Belfast, UK
+  lat: 54.5844
+  lon: -5.9342
+  home: false
+  people:
+  - name: Daniel Pincheira-Donoso
+    papers: 1
+  country: United Kingdom
+- institution: University of Milan
+  place: Milan, Italy
+  lat: 45.4602
+  lon: 9.1946
+  home: false
+  people:
+  - name: Gentile Francesco Ficetola
+    papers: 1
+  country: Italy
+- institution: Royal Botanic Gardens, Kew
+  place: London, UK
+  lat: 51.4787
+  lon: -0.2956
+  home: false
+  people:
+  - name: Steven P. Bachman
+    papers: 1
+  country: United Kingdom
+- institution: Stellenbosch University / SANParks
+  place: Stellenbosch, South Africa
+  lat: -33.9328
+  lon: 18.8644
+  home: false
+  people:
+  - name: Wendy Foden
+    papers: 1
+  country: South Africa

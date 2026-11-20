@@ -1,0 +1,16 @@
+---
+layout: page
+title: "Data & Code"
+kicker: Open science
+lead: "Datasets, tools and code from my research, free to reuse. Please cite the related paper."
+---
+<div class="cards cards-3">
+{% for d in site.data.datacode %}
+  <a class="card card-link" href="{{ d.url }}" target="_blank" rel="noopener">
+    <span class="kind kind-{{ d.kind }}">{% case d.kind %}{% when 'dataset' %}<i class="fa-solid fa-database"></i> Dataset{% when 'code' %}<i class="fa-solid fa-code"></i> Code{% else %}<i class="fa-solid fa-screwdriver-wrench"></i> Tool{% endcase %}</span>
+    <h3>{{ d.title }}</h3>
+    <p>{{ d.description }}</p>
+    <span class="card-foot">{{ d.host }}{% if d.paper %} · related paper: doi:{{ d.paper }}{% endif %} <i class="fa-solid fa-arrow-right"></i></span>
+  </a>
+{% endfor %}
+</div>

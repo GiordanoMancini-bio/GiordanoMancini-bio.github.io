@@ -1,0 +1,12 @@
+{% assign p = include.p %}
+<li class="pub{% if p.type == 'preprint' %} is-preprint{% endif %}" data-tags="{{ p.tags | join: '|' | downcase }}">
+  <div class="pub-title">{{ p.title }}</div>
+  <div class="pub-authors">{{ p.authors | replace: 'Mancini, G.', '<strong class="me">Mancini, G.</strong>' }} ({{ p.year }})</div>
+  <div class="pub-venue"><em>{{ p.journal }}</em>{% if p.details %}, {{ p.details }}{% endif %}</div>
+  <div class="pub-links">
+    {% if p.type == 'preprint' %}<span class="badge badge-pre">Preprint</span>{% endif %}
+    {% if p.award %}<span class="badge badge-award"><i class="fa-solid fa-award"></i> {{ p.award }}</span>{% endif %}
+    {% if p.doi %}<a class="btn-sm" href="https://doi.org/{{ p.doi }}" target="_blank" rel="noopener"><i class="ai ai-doi"></i> {{ p.doi }}</a>{% endif %}
+    {% for l in p.links %}<a class="btn-sm" href="{{ l.url }}" target="_blank" rel="noopener"><i class="fa-solid fa-arrow-up-right-from-square"></i> {{ l.label }}</a>{% endfor %}
+  </div>
+</li>
