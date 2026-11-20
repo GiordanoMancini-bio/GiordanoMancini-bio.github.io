@@ -9,15 +9,6 @@
   host: "Dryad"
   paper: "10.1111/ecog.07527"
 
-- kind: tool
-  title: "sRedList platform"
-  description: >-
-    Web platform that streamlines IUCN Red List assessments using open data and models.
-    I contributed the standardised approach to include climate change responses.
-  url: "https://sredlist.eu/"
-  host: "sredlist.eu"
-  paper: "10.1016/j.biocon.2024.110761"
-
 - kind: code
   title: "GitHub repositories"
   description: >-
