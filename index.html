@@ -62,7 +62,7 @@ body_class: home
     <div class="section-head"><h2>Selected publications</h2><a href="{{ '/publications/' | relative_url }}">All publications →</a></div>
     <ol class="pubs compact">
       {% assign featured = site.data.publications | where: "featured", true %}
-      {% for p in featured limit:4 %}{% include pub.html p=p %}{% endfor %}
+      {% for p in featured limit:5 %}{% include pub.html p=p %}{% endfor %}
     </ol>
   </div>
 </section>
