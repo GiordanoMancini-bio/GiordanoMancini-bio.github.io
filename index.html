@@ -10,7 +10,7 @@ body_class: home
       <p class="kicker">Conservation scientist</p>
       <h1>Giordano Mancini, PhD</h1>
       <p class="hero-sub">{{ site.author.position }} · <a href="{{ site.author.affiliation_url }}">Biodiversity &amp; Global Change Lab</a>, Sapienza University of Rome</p>
-      <p class="hero-lead">I use models and global data to understand how species respond to environmental change, and to turn that knowledge into tools for the IUCN Red List and for conservation planning.</p>
+      <p class="hero-lead">I use models and global data to understand how species respond to environmental change, and to turn that knowledge into tools for biodiversity conservation.</p>
       {% include social.html email=true %}
     </div>
   </div>
@@ -72,7 +72,7 @@ body_class: home
     <div>
       <h2>A global network</h2>
       {% assign ncollab = 0 %}{% for i in site.data.collaborators %}{% assign ncollab = ncollab | plus: i.people.size %}{% endfor %}
-      <p>{{ ncollab }} co-authors from {{ site.data.collaborators.size }} institutions across Europe, the Americas, Africa and the Middle East.</p>
+      <p>{{ ncollab }} co-authors from {{ site.data.collaborators.size }} institutions across the world.</p>
     </div>
     <a class="btn btn-light" href="{{ '/collaborations/' | relative_url }}"><i class="fa-solid fa-earth-europe"></i> Explore the collaboration map</a>
   </div>

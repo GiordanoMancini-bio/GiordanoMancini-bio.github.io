@@ -13,7 +13,7 @@
   --accent: #c2653a;
   --radius: 14px;
   --shadow: 0 1px 2px rgba(0,0,0,.04), 0 8px 24px rgba(44,74,107,.08);
-  --serif: "Fraunces", Georgia, "Times New Roman", serif;
+  --serif: "Plus Jakarta Sans", "Inter", system-ui, sans-serif;
   --sans: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
   --max: 1120px;
 }
@@ -23,8 +23,8 @@ body { margin: 0; font-family: var(--sans); font-size: 17px; line-height: 1.65; 
 img { max-width: 100%; height: auto; display: block; }
 a { color: var(--blue-2); text-decoration-thickness: 1px; text-underline-offset: 3px; }
 a:hover { color: var(--accent); }
-h1, h2, h3 { font-family: var(--serif); font-weight: 650; line-height: 1.2; color: var(--blue); margin: 0 0 .5em; }
-h1 { font-size: clamp(2rem, 4.5vw, 3.2rem); letter-spacing: -.01em; }
+h1, h2, h3 { font-family: var(--serif); font-weight: 700; line-height: 1.2; color: var(--blue); margin: 0 0 .5em; }
+h1 { font-size: clamp(2rem, 4.5vw, 3.2rem); letter-spacing: -.02em; }
 h2 { font-size: clamp(1.45rem, 2.6vw, 1.9rem); }
 h3 { font-size: 1.12rem; }
 .wrap { width: min(var(--max), 100% - 2.5rem); margin-inline: auto; }
@@ -128,7 +128,7 @@ h2.year { font-size: 1.3rem; margin: 2.2rem 0 .5rem; padding-bottom: .3rem; bord
 .pub { padding: 1rem 0 1rem 1rem; border-left: 3px solid transparent; transition: border-color .15s, background .15s; }
 .pub:hover { border-left-color: var(--accent); background: rgba(255,255,255,.6); }
 .pub + .pub { border-top: 1px solid var(--line); }
-.pub-title { font-family: var(--serif); font-weight: 650; font-size: 1.08rem; color: var(--ink); line-height: 1.35; }
+.pub-title { font-family: var(--serif); font-weight: 600; font-size: 1.08rem; color: var(--ink); line-height: 1.35; }
 .pub-authors { font-size: .9rem; color: var(--muted); margin-top: .25rem; }
 .pub-authors .me { color: var(--blue); }
 .pub-venue { font-size: .9rem; }
